@@ -9,6 +9,8 @@ interface IForm {
 
 function ToDoList() {
   const toDos = useRecoilValue(toDoState);
+  console.log(toDos);
+
   return (
     <div>
       <h1>Todo</h1>
